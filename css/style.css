@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
+    padding: 0;
+    margin: 0;
+}
+
+.product {}
+
+.product_tittle {
+
+    padding: 30px 20px;
+}
+
+.product_tittle h2 {
+
+    margin: 10px 0px;
+
+    text-transform: capitalize;
+
+    font-weight: 700;
+
+    color: #bf3d3f;
+
+    font-size: 32px;
+
+    font-family: 'Poppins', sans-serif;
+
+    text-align: center;
+}
+
+.shop {
+
+    background-color: #bf3d3f;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 16px;
+}
+
+.items {
+    padding: 48px 0px;
+    display: flex;
+}
+
+.product_image {
+    text-align: center;
+}
+
+.product_image h2 {
+    margin: 20px 0px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+.product_image img {
+    width: 50%;
+}
+
+.product_description {
+    padding: 60px 20px;
+}
+
+.product_description ul {}
+
+.product_description ul li {
+    list-style: none;
+}
+
+.product_description ul li p {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.shop_button {
+    padding-top: 30px;
+}
+
+
+.shopwhite {
+    background-color: #fff;
+}
+
+.pro_img h2 {
+    color: #000;
+}
+
+.pro_des ul li p {
+    color: #000;
+}
+
+.btn-shopwhite {
+    color: #000;
+    border: 1px solid #000;
+}
+
+.btn-shopwhite:hover {
+    color: #000;
+}
+
+
+/* Button CSS */
+.button-24 {
+    background: transparent;
+    border: 1px solid #FFF;
+    border-radius: 6px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    padding: 12px 20px;
+}
+
+.button-24:hover,
+.button-24:active {
+    background-color: #fff;
+    background-position: 0 0;
+    color: #c94142;
+    box-shadow: rgb(0 0 0 / 18%) 0 0 5px 2px;
+}
+
+.button-24:active {
+    opacity: .5;
+}
+
+.button-25 {
+    background: transparent;
+    border: 1px solid #c94142;
+    border-radius: 6px;
+    color: #c94142;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    padding: 12px 20px;
+}
+
+.button-25:hover,
+.button-25:active {
+    background-color: #c94142;
+    background-position: 0 0;
+    color: #fff;
+    box-shadow: rgb(0 0 0 / 18%) 0 0 5px 2px;
+}
+
+.button-25:active {
+    opacity: .5;
+}

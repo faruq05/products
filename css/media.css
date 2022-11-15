@@ -1,0 +1,27 @@
+@media(max-width:1024px) {
+    .product_image img {
+       width: 80%;
+    }
+}
+
+@media(max-width:767px) {
+    .shop_button {
+        padding-top: 30px;
+        text-align: center;
+    }    
+
+    .product_image img {
+       width: 70%;
+    }
+}
+
+@media(max-width:480px) {
+    .shop_button {
+        padding-top: 30px;
+        text-align: center;
+    }    
+
+    .product_image img {
+       width: 60%;
+    }
+}
